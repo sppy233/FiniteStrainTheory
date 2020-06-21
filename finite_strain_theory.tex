@@ -1,0 +1,49 @@
+%!TEX program = xelatex
+\documentclass[lang=cn,11pt,a4paper,cite=numbers]{elegantpaper}
+
+\title{有限变形理论}
+\author{Sppy}
+\institute{\href{http://sppy.site/}{sppy.site}}
+\date{\zhtoday}
+
+% 添加额外工具包>>
+\usepackage{array}
+\usepackage{bm} % 粗体
+
+% 添加自定义宏命令>>
+\newcommand{\DF}[2]{{\displaystyle\frac{#1}{#2}}} % 分式
+\newcommand{\BO}{\bm{\mathfrak{B}}_{\scriptscriptstyle 0}} % 参考构型
+\newcommand{\BT}{\bm{\mathfrak{B}}} % 当前构型
+\newcommand{\TT}{\mathrm{T}} % 正体T
+\newcommand*{\diff}{\mathop{}\!\mathrm{d}} % 微分算子
+\newcommand{\trd}{\operatorname{tr}} % 矩阵的迹
+\newcommand{\jaumann}{\overset{\triangledown}{\bm{\sigma}}}
+\newcommand{\jaumannT}{\overset{\triangledown}{\bm{\tau}}}
+\newcommand{\oldrody}{\overset{\vartriangle}{\bm{\sigma}}}
+\newcommand{\oldrodyT}{\overset{\vartriangle}{\bm{\tau}}}
+\newcommand{\truesdell}{\overset{\circ}{\bm{\sigma}}}
+
+
+\begin{document}
+
+% 行间公式的间距
+\setlength\abovedisplayshortskip{2pt}
+\setlength\belowdisplayshortskip{2pt}
+\setlength\abovedisplayskip{3pt}
+\setlength\belowdisplayskip{3pt}
+
+\maketitle
+
+\begin{abstract}
+在连续介质力学的框架下，当连续体发生大的应变、刚体平移或刚体转动时，小变形假设不再成立，经典的小应变理论将无法准确刻画其变形规律，因而提出有限变形理论来用于研究这种大变形问题。
+\keywords{连续介质力学，有限变形，大变形}
+\end{abstract}
+
+% 主文档
+\input{inputfile}
+
+% 参考文献
+\addcontentsline{toc}{section}{参考文献}
+\bibliography{ref}
+
+\end{document}
