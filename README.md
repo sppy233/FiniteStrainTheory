@@ -24,7 +24,7 @@ FiniteStrainTheory
 
 ## 使用方法
 
-1. 使用 `XeLaTeX` 编译器
+1. 选择 `XeLaTeX` 编译器
 
    > 在 TeXstudio 中，按照 `选项 -> 设置 -> 构建 -> 默认编译器 -> XeLaTeX` 进行配置
 
