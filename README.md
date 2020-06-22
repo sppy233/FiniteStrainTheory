@@ -32,6 +32,6 @@ FiniteStrainTheory
 
 ## License
 
-This work is released under the LaTeX Project Public License, v1.3c or later. 
+This document is released under the LaTeX Project Public License, v1.3c or later. 
 
-本模板发布遵循 LaTeX 项目公共许可证 1.3c 或更高版本。 
+本文档发布遵循 LaTeX 项目公共许可证 1.3c 或更高版本。 
